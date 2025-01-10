@@ -19,7 +19,7 @@ public class OnlineBookStoreApplication {
     }
 
     @Bean
-public CommandLineRunner commandLineRunner() {
+    public CommandLineRunner commandLineRunner() {
         return args -> {
             Book peacefulWarrior = new Book();
             peacefulWarrior.setAuthor("Milman");
